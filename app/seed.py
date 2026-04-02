@@ -31,7 +31,8 @@ def seed_data(db: Session):
         Course(name="Physics", category="Science"),
         Course(name="History", category="Arts"),
         Course(name="Computer Science", category="Technology"),
-        Course(name="English", category="Language")
+        Course(name="English", category="Language"),
+        Course(name="PYTHON", category="Technology")
     ]
 
     db.add_all(students)

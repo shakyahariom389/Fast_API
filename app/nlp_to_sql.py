@@ -7,7 +7,8 @@ def generate_sql(question):
         "Physics",
         "History",
         "Computer Science",
-        "English"
+        "English",
+        "PYTHON"
     ]
 
     # detect course name from question
